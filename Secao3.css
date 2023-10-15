@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.scroll-item{
+    margin: 20px;
+    text-align: left;
+}
+.scroll-item h1, h2, p{
+    margin: 30px;
+    color: black;
+}
+.scroll-item p{
+    text-align: justify;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Defina as propriedades do container flexível */
+h1{
+    color: black;
+    margin: 35px;
+}
+hr{
+    margin: 30px;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+
+/* Estilize os quadros individuais */
+#quadroinf {
+    background-color: rgb(12, 231, 231);
+    flex: 1; /* Ocupar a mesma quantidade de espaço */
+    text-align: center; /* Centralizar o conteúdo */
+    padding: 30px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Adicionar uma borda para separar os quadros */
+    box-shadow: 2px 2px 5px #888; /* Sombra leve */
+    margin: 10px; /* Espaçamento externo */
+    border-radius: 8px;
+}
+
+
+/* Estilize o texto dentro dos quadros (ajuste as cores e fontes conforme necessário) */
+#quadroinf h3 {
+    font-size: 18px; /* Tamanho da fonte do título */
+    color: #3a3939; /* Cor do texto */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center;
+}

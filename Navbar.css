@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+/* Adicione uma imagem de fundo ao cabeçalho */
+header {
+    background-image: url('../Assets/plano-de-fundo.avif'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+    background-size: cover; /* Para cobrir todo o cabeçalho */
+    background-position:center; /* Centralize a imagem no cabeçalho */
+    background-attachment: fixed; /* Para fixar a imagem de fundo enquanto a página rola */
+    opacity: 0.9;
+    text-align: center; /* Centralize o conteúdo do cabeçalho */
+    color: white; /* Cor do texto no cabeçalho (se necessário) */
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        background-image: url('../Assets/plano-de-fundo.avif'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+        background-size: cover; /* Para cobrir todo o cabeçalho */
+        background-position:center; /* Centralize a imagem no cabeçalho */
+        background-attachment: fixed; /* Para fixar a imagem de fundo enquanto a página rola */
+        opacity: 0.9;
+        text-align: center; /* Centralize o conteúdo do cabeçalho */
+        color: white; /* Cor do texto no cabeçalho (se necessário) */
+    }
+}
+/* Resto do seu código CSS aqui */
+
+
+.container img {
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 18px;
+}
+
+.dados {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.dados h1, .dados h2, .dados p {
+    color: white;
+}
+
+.dados h2 {
+    font-size: 48px;
+}
+
+/* Estilize os quadros individuais */
+.container {
+    background-color: black;
+    text-align: center; /* Centralizar o conteúdo */
+    border: 1px solid #ccc; /* Adicionar uma borda para separar os quadros */
+    box-shadow: 2px 2px 5px #888; /* Sombra leve */
+}
+
+
+/* Estilização para dispositivos mobiles */
+
+@media screen and (max-width: 400px) {
+    .container {
+        background-color: black;  
+        text-align: center; /* Centralizar o conteúdo */
+        border: 1px solid #ccc; /* Adicionar uma borda para separar os quadros */
+        box-shadow: 2px 2px 5px #888; /* Sombra leve */
+        line-height: 30px;
+    }
+    .container img{
+        margin-left: 65px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        
+    }
+    .dados{
+        text-align: left;
+    }
+    .dados h1{
+         font-size: 24px;
+        
+    }
+    .dados h2{
+        font-size: 30px;
+       
+   }
+  }
+
+
+
+/* Color title animação */
+h2 {
+    font-size: 24px;
+    animation: changeColor 6s linear infinite;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@keyframes changeColor {
+    0% {
+        color: red;
+    }
+    25% {
+        color: blue;
+    }
+    50% {
+        color: rgb(128, 0, 117);
+    }
+    75% {
+        color: rgb(119, 240, 20);
+    }
+    100% {
+        color: rgb(215, 238, 13);
+    }
+}
+ 

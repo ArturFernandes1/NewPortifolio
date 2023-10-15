@@ -1,0 +1,5 @@
+    <h1>Redes Sociais</h1>
+            <p>linkedin.com/in/artur-dantas-fernandes-b9186926b</p>
+            <p>github.com/ArturFernandes1</p>
+            <p>arturdantas2501@gmail.com</p>
+            <p>é um exemplo de um componente de classe em React.</p>

@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Defina as propriedades do container flexível */
+h1{
+    color: black;
+    margin: 35px;
+}
+hr{
+    margin: 30px;
+}
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+  }
+
+/* Estilize os quadros individuais */
+#quadro {
+    background-color: rgb(12, 231, 231);
+    flex: 1; /* Ocupar a mesma quantidade de espaço */
+    text-align: center; /* Centralizar o conteúdo */
+    padding: 30px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Adicionar uma borda para separar os quadros */
+    box-shadow: 2px 2px 5px #888; /* Sombra leve */
+    margin: 10px; /* Espaçamento externo */
+    border-radius: 8px;
+}
+
+/* Estilize a imagem dentro dos quadros (ajuste o tamanho conforme necessário) */
+
+/* Estilize o texto dentro dos quadros (ajuste as cores e fontes conforme necessário) */
+#quadro h3 {
+    font-size: 18px; /* Tamanho da fonte do título */
+    color: #3a3939; /* Cor do texto */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center;
+}
+.imagem {
+    width: 50px;
+    height: 60px;
+    transition: transform 0.6s; /* Adicione uma transição suave */
+  }
+
+
+  /* Defina a animação de tremor no hover */
+  .imagem:hover {
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+    animation: shake 1s infinite;
+  }
+
+  /* Defina a animação de tremor */
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(5px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(10px, 0, 0);
+    }
+  }
+    
+  
